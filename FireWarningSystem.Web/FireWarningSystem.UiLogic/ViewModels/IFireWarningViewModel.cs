@@ -1,9 +1,4 @@
 ﻿using FireWarningSystem.UiLogic.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FireWarningSystem.UiLogic.ViewModels
 {
@@ -11,7 +6,9 @@ namespace FireWarningSystem.UiLogic.ViewModels
     {
         public FireWarningMainModel Model { get; set; }
 
-        public Task OnInitialisedAsync();
-        public Task RefreshWarningsAsync();
+        Task OnInitialisedAsync();
+        Task RenderMapAsync();
+        Task RefreshWarningsAsync();
+
     }
 }

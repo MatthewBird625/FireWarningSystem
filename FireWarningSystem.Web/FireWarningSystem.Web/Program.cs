@@ -1,8 +1,8 @@
 using FireWarningSystem.UiLogic.Services;
+using FireWarningSystem.UiLogic.Services.Implementation;
 using FireWarningSystem.UiLogic.ViewModels;
 using FireWarningSystem.UiLogic.ViewModels.Implementation;
 using FireWarningSystem.Web.Components;
-using MudBlazor;
 using MudBlazor.Services;
 using WarningClient;
 
@@ -10,7 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddWarningClient(builder.Configuration);
 
-// Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
@@ -19,6 +18,7 @@ builder.Services.AddMudServices();
 //register transients
 
 builder.Services
+    .AddTransient<IAzureMapsRenderService, AzureMapsRenderService>()
     .AddTransient<ISnackbarService, FireWarningSystem.UiLogic.Services.Implementation.SnackbarService>()
     .AddTransient<IFireWarningViewModel, FireWarningViewModel>();
 

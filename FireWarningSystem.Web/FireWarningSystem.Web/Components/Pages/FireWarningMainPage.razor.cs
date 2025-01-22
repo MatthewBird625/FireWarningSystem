@@ -20,6 +20,8 @@ namespace FireWarningSystem.Web.Components.Pages
         protected override async Task OnInitializedAsync()
         {
             await ViewModel.OnInitialisedAsync();
+            StateHasChanged();
+            await ViewModel.RenderMapAsync();
         }
     }
 }
