@@ -8,3 +8,6 @@
 *.vsidx
 /FireWarningSystem.Web/FireWarningSystem.UiLogic/obj
 /FireWarningSystem.Web/FireWarningSystem.UiLogic/bin/Debug/net8.0
+/FireWarningSystem.Web/FireWarningSystem.Data/bin/Debug/net8.0
+/FireWarningSystem.Web/.vs/FireWarningSystem.Web/v17/DocumentLayout.json
+*.bin

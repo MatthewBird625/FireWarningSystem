@@ -1,15 +1,21 @@
+using FireWarningSystem.UiLogic.ViewModels;
+using FireWarningSystem.UiLogic.ViewModels.Implementation;
 using FireWarningSystem.Web.Components;
 using MudBlazor.Services;
-
+using WarningClient;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddWarningClient(builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 builder.Services.AddMudServices();
+
+//register transients
+builder.Services.AddTransient<IFireWarningViewModel, FireWarningViewModel>();
 
 var app = builder.Build();
 
