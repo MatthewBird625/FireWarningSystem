@@ -1,0 +1,427 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\pages\\components\\azuremapcomponent.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\pages\\components\\azuremapcomponent.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\pages\\components\\azuremapcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\pages\\components\\azuremapcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.uilogic\\viewmodels\\implementation\\firewarningviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|solutionrelative:firewarningsystem.uilogic\\viewmodels\\implementation\\firewarningviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.uilogic\\viewmodels\\ifirewarningviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|solutionrelative:firewarningsystem.uilogic\\viewmodels\\ifirewarningviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.uilogic\\models\\warningmodelextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|solutionrelative:firewarningsystem.uilogic\\models\\warningmodelextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.uilogic\\models\\warningmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|solutionrelative:firewarningsystem.uilogic\\models\\warningmodelmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\pages\\components\\apistatusresultcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\pages\\components\\apistatusresultcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\pages\\components\\apistatusresultitemcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\pages\\components\\apistatusresultitemcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\pages\\components\\azuremapcomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\pages\\components\\azuremapcomponent.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\pages\\firewarningmainpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\pages\\firewarningmainpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5412D4-E29E-4B5E-91FC-4C4F15AC172B}|WarningClient\\WarningClient.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\warningclient\\client\\iwarningclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5412D4-E29E-4B5E-91FC-4C4F15AC172B}|WarningClient\\WarningClient.csproj|solutionrelative:warningclient\\client\\iwarningclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\pages\\firewarningmainpage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\pages\\firewarningmainpage.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.uilogic\\services\\implementation\\azuremapsrenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|solutionrelative:firewarningsystem.uilogic\\services\\implementation\\azuremapsrenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\wwwroot\\scripts\\azuremaps.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\wwwroot\\scripts\\azuremaps.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.uilogic\\services\\implementation\\snackbarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|solutionrelative:firewarningsystem.uilogic\\services\\implementation\\snackbarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1ED8184A-9B29-4B4D-84A5-491B37149951}|FireWarningSystem.Web\\FireWarningSystem.Web.csproj|solutionrelative:firewarningsystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A5412D4-E29E-4B5E-91FC-4C4F15AC172B}|WarningClient\\WarningClient.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\warningclient\\client\\implementation\\warningsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A5412D4-E29E-4B5E-91FC-4C4F15AC172B}|WarningClient\\WarningClient.csproj|solutionrelative:warningclient\\client\\implementation\\warningsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|c:\\users\\matth\\onedrive\\desktop\\software\\mauiapp\\firewarningsystem\\firewarningsystem\\firewarningsystem.web\\firewarningsystem.uilogic\\services\\iazuremapsrenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7922D96F-EA6E-4307-A080-88BA20401D6D}|FireWarningSystem.UiLogic\\FireWarningSystem.UiLogic.csproj|solutionrelative:firewarningsystem.uilogic\\services\\iazuremapsrenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\matth\\AppData\\Roaming\\Microsoft\\UserSecrets\\eecb778e-08ec-4db7-a4cf-d6527709ada2\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 319,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 306,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\_Imports.razor",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:38:54.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "azureMaps.js",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\wwwroot\\scripts\\azureMaps.js",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\wwwroot\\scripts\\azureMaps.js",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\wwwroot\\scripts\\azureMaps.js",
+              "RelativeToolTip": "FireWarningSystem.Web\\wwwroot\\scripts\\azureMaps.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-22T10:20:57.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAzureMapsRenderService.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Services\\IAzureMapsRenderService.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.UiLogic\\Services\\IAzureMapsRenderService.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Services\\IAzureMapsRenderService.cs",
+              "RelativeToolTip": "FireWarningSystem.UiLogic\\Services\\IAzureMapsRenderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:19:33.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AzureMapsRenderService.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Services\\Implementation\\AzureMapsRenderService.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.UiLogic\\Services\\Implementation\\AzureMapsRenderService.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Services\\Implementation\\AzureMapsRenderService.cs",
+              "RelativeToolTip": "FireWarningSystem.UiLogic\\Services\\Implementation\\AzureMapsRenderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:18:56.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\matth\\AppData\\Roaming\\Microsoft\\UserSecrets\\eecb778e-08ec-4db7-a4cf-d6527709ada2\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\eecb778e-08ec-4db7-a4cf-d6527709ada2\\secrets.json",
+              "ToolTip": "C:\\Users\\matth\\AppData\\Roaming\\Microsoft\\UserSecrets\\eecb778e-08ec-4db7-a4cf-d6527709ada2\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\eecb778e-08ec-4db7-a4cf-d6527709ada2\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T10:17:46.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AzureMapComponent.razor.css",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor.css",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor.css",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor.css",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T10:08:11.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AzureMapComponent.razor.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor.cs",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T10:07:22.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AzureMapComponent.razor",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Pages\\Components\\AzureMapComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T10:06:46.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:54:30.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiStatusResultItemComponent.razor",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\ApiStatusResultItemComponent.razor",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Pages\\Components\\ApiStatusResultItemComponent.razor",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\ApiStatusResultItemComponent.razor",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Pages\\Components\\ApiStatusResultItemComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T08:00:08.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiStatusResultComponent.razor",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\ApiStatusResultComponent.razor",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Pages\\Components\\ApiStatusResultComponent.razor",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\Components\\ApiStatusResultComponent.razor",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Pages\\Components\\ApiStatusResultComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T07:57:09.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\App.razor",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\App.razor",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T07:56:37.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Routes.razor",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Routes.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T07:56:25.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FireWarningMainPage.razor.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\FireWarningMainPage.razor.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Pages\\FireWarningMainPage.razor.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\FireWarningMainPage.razor.cs",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Pages\\FireWarningMainPage.razor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:50:27.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Program.cs",
+              "RelativeToolTip": "FireWarningSystem.Web\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:47:43.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IWarningClient.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\WarningClient\\Client\\IWarningClient.cs",
+              "RelativeDocumentMoniker": "WarningClient\\Client\\IWarningClient.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\WarningClient\\Client\\IWarningClient.cs",
+              "RelativeToolTip": "WarningClient\\Client\\IWarningClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:47:33.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WarningsClient.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\WarningClient\\Client\\Implementation\\WarningsClient.cs",
+              "RelativeDocumentMoniker": "WarningClient\\Client\\Implementation\\WarningsClient.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\WarningClient\\Client\\Implementation\\WarningsClient.cs",
+              "RelativeToolTip": "WarningClient\\Client\\Implementation\\WarningsClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:47:26.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFireWarningViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\ViewModels\\IFireWarningViewModel.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.UiLogic\\ViewModels\\IFireWarningViewModel.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\ViewModels\\IFireWarningViewModel.cs",
+              "RelativeToolTip": "FireWarningSystem.UiLogic\\ViewModels\\IFireWarningViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:46:29.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FireWarningMainPage.razor",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\FireWarningMainPage.razor",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\Components\\Pages\\FireWarningMainPage.razor",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\Components\\Pages\\FireWarningMainPage.razor",
+              "RelativeToolTip": "FireWarningSystem.Web\\Components\\Pages\\FireWarningMainPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-22T07:43:02.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WarningModelExtension.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Models\\WarningModelExtension.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.UiLogic\\Models\\WarningModelExtension.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Models\\WarningModelExtension.cs",
+              "RelativeToolTip": "FireWarningSystem.UiLogic\\Models\\WarningModelExtension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:14:13.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "FireWarningSystem.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.Web\\appsettings.json",
+              "RelativeToolTip": "FireWarningSystem.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T07:12:16.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SnackbarService.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Services\\Implementation\\SnackbarService.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.UiLogic\\Services\\Implementation\\SnackbarService.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Services\\Implementation\\SnackbarService.cs",
+              "RelativeToolTip": "FireWarningSystem.UiLogic\\Services\\Implementation\\SnackbarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T07:02:31.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WarningModelMap.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Models\\WarningModelMap.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.UiLogic\\Models\\WarningModelMap.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\Models\\WarningModelMap.cs",
+              "RelativeToolTip": "FireWarningSystem.UiLogic\\Models\\WarningModelMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T06:49:00.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FireWarningViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\ViewModels\\Implementation\\FireWarningViewModel.cs",
+              "RelativeDocumentMoniker": "FireWarningSystem.UiLogic\\ViewModels\\Implementation\\FireWarningViewModel.cs",
+              "ToolTip": "C:\\Users\\matth\\OneDrive\\Desktop\\software\\mauiApp\\FireWarningSystem\\FireWarningSystem\\FireWarningSystem.Web\\FireWarningSystem.UiLogic\\ViewModels\\Implementation\\FireWarningViewModel.cs",
+              "RelativeToolTip": "FireWarningSystem.UiLogic\\ViewModels\\Implementation\\FireWarningViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T06:46:51.074Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
