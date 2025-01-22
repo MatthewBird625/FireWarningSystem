@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MudBlazor" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FireWarningSystem.UiLogic\FireWarningSystem.UiLogic.csproj" />
+  </ItemGroup>
+
 </Project>
