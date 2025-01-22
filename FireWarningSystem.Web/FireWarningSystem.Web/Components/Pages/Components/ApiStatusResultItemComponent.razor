@@ -1,0 +1,25 @@
+﻿@using MudBlazor
+@using FireWarningSystem.UiLogic.Models;
+
+<div class="d-flex flex-row flex-grow-1">
+
+    <MudText Style="width:125px"><strong>@State service:</strong></MudText> <MudDivider Class="mx-2" Vertical="true" />
+    @if (Error)
+    {
+        <MudIcon Class="mx-2" Size="Size.Medium" Icon="@Icons.Material.Filled.Circle" Color="Color.Error"></MudIcon>
+    }
+    else if (Warnings.WhereInvalidCoordinates().Any())
+    {
+        <MudIcon Class="mx-2" Size="Size.Medium" Icon="@Icons.Material.Filled.Circle" Color="Color.Warning"></MudIcon>
+    }
+    else
+    {
+        <MudIcon Class="mx-2" Size="Size.Medium" Icon="@Icons.Material.Filled.CheckCircle" Color="Color.Success"></MudIcon>
+    }
+    
+    @{
+        var warningString = Warnings.WhereInvalidCoordinates().Any() ? " (see table below)" : "";
+    }
+    <MudDivider Class="mx-2" Vertical="true" /><MudText Class="mx-2">@(Error ? "N/A" : $"{Warnings.Count()} Warnings{warningString}")</MudText>
+
+</div>

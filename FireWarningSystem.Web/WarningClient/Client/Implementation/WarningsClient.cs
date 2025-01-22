@@ -2,7 +2,6 @@
 using System.Net.Http;
 using System.Net.Http.Json;
 using WarningClient.Models;
-using WarningClient.Models.Wa;
 
 namespace WarningClient.Client.Implementation
 {

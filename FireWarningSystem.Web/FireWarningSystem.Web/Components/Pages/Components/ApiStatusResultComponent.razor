@@ -1,0 +1,92 @@
+﻿@using MudBlazor
+<MudPaper Class="d-flex flex-grow-1 pa-4 mx-4">
+    <MudGrid Spacing="3">
+
+        <MudItem Class="d-flex flex-row" xs="12">
+            <ApiStatusResultItemComponent State="VIC" Warnings="@Model.VicWarnings" Error="@Model.VicWarningsError" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudDivider></MudDivider>
+        </MudItem>
+
+
+        <MudItem Class="d-flex flex-row" xs="12">
+            <ApiStatusResultItemComponent State="NSW" Warnings="@Model.NswWarnings" Error="@Model.NswWarningsError" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudDivider></MudDivider>
+        </MudItem>
+
+        <MudItem Class="d-flex flex-row" xs="12">
+            <ApiStatusResultItemComponent State="ACT" Warnings="@Model.ActWarnings" Error="@Model.ActWarningsError" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudDivider></MudDivider>
+        </MudItem>
+
+        <MudItem Class="d-flex flex-row" xs="12">
+            <ApiStatusResultItemComponent State="QLD" Warnings="@Model.QldWarnings" Error="@Model.QldWarningsError" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudDivider></MudDivider>
+        </MudItem>
+        <MudItem Class="d-flex flex-row" xs="12">
+            <ApiStatusResultItemComponent State="NT" Warnings="@Model.NtWarnings" Error="@Model.NtWarningsError" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudDivider></MudDivider>
+        </MudItem>
+
+        <MudItem Class="d-flex flex-row" xs="12">
+            <ApiStatusResultItemComponent State="SA" Warnings="@Model.SaWarnings" Error="@Model.SaWarningsError" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudDivider></MudDivider>
+        </MudItem>
+
+        <MudItem Class="d-flex flex-row" xs="12">
+            <ApiStatusResultItemComponent State="WA" Warnings="@Model.WaWarnings" Error="@Model.WaWarningsError" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudDivider></MudDivider>
+        </MudItem>
+
+        <MudItem Class="d-flex flex-row" xs="12">
+            <ApiStatusResultItemComponent State="TAS" Warnings="@Model.TasWarnings" Error="@Model.TasWarningsError" />
+        </MudItem>
+
+        <MudItem xs="12">
+            <MudDivider></MudDivider>
+        </MudItem>
+
+        <MudItem Class="my-auto d-flex flex-row mt-4" xs="12">
+            <MudAlert Severity="Severity.Info">
+                <MudText Class="pb-2"><strong>Last Update Time:</strong> @($"{Model.LastUpdateTime:hh-mm-ss tt}")</MudText>
+                <MudText>Warning information provided by relevant state emergency service. Please refer to state emergency alert website for more information where required.</MudText>
+                </MudAlert>
+        </MudItem>
+
+        <MudGrid Class="mt-4 d-flex" Spacing="2">
+            <MudItem xs="0" sm="0" md="6"></MudItem>
+            <MudItem xs="12" sm="0" md="6">
+                <MudButton Color="Color.Primary"
+                           Class="py-2"
+                           EndIcon="@MudBlazor.Icons.Material.Outlined.Search"
+                           IconClass="ml-auto"
+                           IconSize="Size.Large"
+                           OnClick="@RefreshStatus"
+                           FullWidth="true"
+                           Variant="Variant.Filled">
+                    Refresh Warnings
+                </MudButton>
+            </MudItem>
+        </MudGrid>
+    </MudGrid>
+</MudPaper>
