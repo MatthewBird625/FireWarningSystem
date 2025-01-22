@@ -1,5 +1,4 @@
 ﻿using WarningClient.Models;
-using WarningClient.Models.Wa;
 
 namespace WarningClient.Client
 {

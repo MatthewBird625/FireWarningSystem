@@ -1,6 +1,8 @@
+using FireWarningSystem.UiLogic.Services;
 using FireWarningSystem.UiLogic.ViewModels;
 using FireWarningSystem.UiLogic.ViewModels.Implementation;
 using FireWarningSystem.Web.Components;
+using MudBlazor;
 using MudBlazor.Services;
 using WarningClient;
 
@@ -15,7 +17,10 @@ builder.Services.AddRazorComponents()
 builder.Services.AddMudServices();
 
 //register transients
-builder.Services.AddTransient<IFireWarningViewModel, FireWarningViewModel>();
+
+builder.Services
+    .AddTransient<ISnackbarService, FireWarningSystem.UiLogic.Services.Implementation.SnackbarService>()
+    .AddTransient<IFireWarningViewModel, FireWarningViewModel>();
 
 var app = builder.Build();
 

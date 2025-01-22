@@ -15,5 +15,11 @@ namespace FireWarningSystem.Web.Components.Pages
             get { return ViewModel.Model; }
             set { ViewModel.Model = value; }
         }
+
+
+        protected override async Task OnInitializedAsync()
+        {
+            await ViewModel.OnInitialisedAsync();
+        }
     }
 }

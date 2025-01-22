@@ -29,7 +29,6 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
         }
         private FireWarningMainModel _model = new();
 
-
         public async Task OnInitialisedAsync()
         {
             try
@@ -48,6 +47,10 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             }
         }
 
+        public async Task RefreshWarningsAsync() 
+        {
+            await GenerateWarningsAsync();
+        }
 
         private async Task GenerateWarningsAsync()
         {
