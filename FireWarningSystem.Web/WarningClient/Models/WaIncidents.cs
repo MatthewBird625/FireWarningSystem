@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace WarningClient.Models.Wa
+namespace WarningClient.Models
 {
     public class WaIncidents
     {

@@ -2,23 +2,23 @@
 {
     public class WarningsModel
     {
-        public IEnumerable<WarningModel> _actWarnings { get; set; } = Array.Empty<WarningModel>();
-        public bool _actWarningsError { get; set; }
-        public IEnumerable<WarningModel> _invalidWarnings { get; set; } = Array.Empty<WarningModel>();
-        public DateTime _lastUpdateTime  {get; set; }
-        public IEnumerable<WarningModel> _ntWarnings { get; set; } = Array.Empty<WarningModel>();
-        public bool _ntIncidentsError { get; set; }
-        public IEnumerable<WarningModel> _nswWarings { get; set; } = Array.Empty<WarningModel>();
-        public bool _nswWarningsError { get; set; }
-        public IEnumerable<WarningModel> _qldWarnings { get; set; } = Array.Empty<WarningModel>();
-        public bool _qldWarningsError { get; set; }
-        public IEnumerable<WarningModel> _saWarnings { get; set; } = Array.Empty<WarningModel>();
-        public bool _saWarningsError { get; set; }
-        public IEnumerable<WarningModel> _tasWarnings { get; set; } = Array.Empty<WarningModel>();
-        public bool _tasWarningsError { get; set; }
-        public IEnumerable<WarningModel> _vicWarnings { get; set; } = Array.Empty<WarningModel>();
-        public bool _vicWarningsError { get; set; }
-        public IEnumerable<WarningModel> _waWarnings { get; set; } = Array.Empty<WarningModel>();
-        public bool _waWarningsError { get; set; }
+        public IEnumerable<WarningModel> ActWarnings { get; set; } = Array.Empty<WarningModel>();
+        public bool ActWarningsError { get; set; }
+        public IEnumerable<WarningModel> InvalidWarnings { get; set; } = Array.Empty<WarningModel>();
+        public DateTime LastUpdateTime  {get; set; }
+        public IEnumerable<WarningModel> NtWarnings { get; set; } = Array.Empty<WarningModel>();
+        public bool NtWarningsError { get; set; }
+        public IEnumerable<WarningModel> NswWarnings { get; set; } = Array.Empty<WarningModel>();
+        public bool NswWarningsError { get; set; }
+        public IEnumerable<WarningModel> QldWarnings { get; set; } = Array.Empty<WarningModel>();
+        public bool QldWarningsError { get; set; }
+        public IEnumerable<WarningModel> SaWarnings { get; set; } = Array.Empty<WarningModel>();
+        public bool SaWarningsError { get; set; }
+        public IEnumerable<WarningModel> TasWarnings { get; set; } = Array.Empty<WarningModel>();
+        public bool TasWarningsError { get; set; }
+        public IEnumerable<WarningModel> VicWarnings { get; set; } = Array.Empty<WarningModel>();
+        public bool VicWarningsError { get; set; }
+        public IEnumerable<WarningModel> WaWarnings { get; set; } = Array.Empty<WarningModel>();
+        public bool WaWarningsError { get; set; }
     }
 }
