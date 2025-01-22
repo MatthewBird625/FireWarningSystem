@@ -1,0 +1,41 @@
+﻿/*XS*/
+@media (min-width:0px) and (max-width:599px) {
+    .azure-map-window {
+        min-height: 400px;
+    }
+}
+
+/*SM*/
+@media (min-width:600px) and (max-width:959px) {
+    .azure-map-window {
+        min-height: 450px;
+    }
+}
+
+/*MD*/
+@media (min-width:960px) and (max-width:1279px) {
+    .azure-map-window {
+        min-height: 500px;
+    }
+}
+
+/*LG*/
+@media (min-width:1280px) and (max-width:1500px) {
+    .azure-map-window {
+        min-height: 500px;
+    }
+}
+
+/*LG*/
+@media (min-width:1501px) and (max-width:1919px) {
+    .azure-map-window {
+        min-height: 600px;
+    }
+}
+
+/*XL XLL*/
+@media (min-width:1920px) {
+    .azure-map-window {
+        min-height: 600px;
+    }
+}

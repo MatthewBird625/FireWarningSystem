@@ -9,13 +9,15 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
 {
     public class FireWarningViewModel : IFireWarningViewModel
     {
+        IAzureMapsRenderService _azureMapsRenderService;
         IConfiguration _configuration;
         ILogger<FireWarningViewModel> _logger;
         ISnackbarService _snackbarService;
         IWarningClient _warningClient;
 
-        public FireWarningViewModel(IConfiguration configuration, ILogger<FireWarningViewModel> logger, ISnackbarService snackbarService, IWarningClient warningClient)
+        public FireWarningViewModel(IAzureMapsRenderService azureMapsRenderService, IConfiguration configuration, ILogger<FireWarningViewModel> logger, ISnackbarService snackbarService, IWarningClient warningClient)
         {
+            _azureMapsRenderService = azureMapsRenderService;
             _configuration = configuration;
             _logger = logger;
             _snackbarService = snackbarService;
@@ -47,10 +49,25 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             }
         }
 
-        public async Task RefreshWarningsAsync() 
+        public async Task RenderMapAsync() 
+        {
+            try
+            {
+                await _azureMapsRenderService.GenerateWarningsMap(Model.Warnings);
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, "Unable to load the Fire Activity Map.");
+                _snackbarService.Error($"Unable to render map, Please contact {_configuration["supportEmail"]}");
+            }
+        }
+
+        public async Task RefreshWarningsAsync()
         {
             await GenerateWarningsAsync();
+            await _azureMapsRenderService.GenerateWarningsMap(Model.Warnings);
         }
+
 
         private async Task GenerateWarningsAsync()
         {
@@ -160,6 +177,8 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
                 _snackbarService.Error("Unable to get WA Warnings from State emergency service. Please contact support if this persists.");
                 _logger.LogError(e, "Unable to get WA Warnings.");
             }
+
+            Model.Warnings.LastUpdateTime = DateTime.Now;
 
             //Get Warnings That have invalid location for placement in a table.
 
