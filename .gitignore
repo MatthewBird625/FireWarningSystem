@@ -6,3 +6,5 @@
 *.config
 *.v2
 *.vsidx
+/FireWarningSystem.Web/FireWarningSystem.UiLogic/obj
+/FireWarningSystem.Web/FireWarningSystem.UiLogic/bin/Debug/net8.0
