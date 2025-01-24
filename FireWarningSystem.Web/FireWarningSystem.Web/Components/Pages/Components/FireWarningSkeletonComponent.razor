@@ -1,0 +1,24 @@
+﻿@using MudBlazor
+ <MudGrid Class="d-flex flex-grow-1" Spacing="2">
+            
+        <MudHidden Breakpoint="Breakpoint.SmAndDown">
+            <MudItem Class="d-flex flex-grow-1" xs="12" sm="12" md="5">
+            <MudPaper Class="pa-4 d-flex flex-grow-1"><MudSkeleton SkeletonType="SkeletonType.Rectangle" Width="100%" Height="600px" /></MudPaper>
+            </MudItem>
+        </MudHidden>
+
+        <MudItem xs="12" sm="12" md="7" lg="7" xl="7" Class="d-flex flex-grow-1 mx-auto">
+            <MudPaper Class="pa-4 d-flex flex-grow-1 mx-4">
+               <MudSkeleton SkeletonType="SkeletonType.Rectangle" Width="100%" Height="600px" />
+            </MudPaper>
+            </MudItem>
+
+        <MudHidden Breakpoint="Breakpoint.MdAndUp">
+            <MudItem Class="d-flex flex-grow-1" xs="12" sm="12" md="5">
+                <MudPaper Class="pa-4 d-flex flex-grow-1 mx-4">
+                    <MudSkeleton SkeletonType="SkeletonType.Rectangle" Width="100%" Height="600px" />
+                </MudPaper>
+            </MudItem>
+        </MudHidden>
+
+</MudGrid>

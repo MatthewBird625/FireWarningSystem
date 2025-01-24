@@ -1,13 +1,11 @@
 var map;
 
 async function InitMap(subscriptionKey) {
-    /*    clear any existing map to avoid duplicate map layers*/
-    //let parentElement = document.getElementById('azureMap');
-    //parentElement.innerHTML = "";
+    let parentElement = document.getElementById('azureMap');
+    parentElement.innerHTML = "";
     if (map != null) {
         map.clear();
     }
-
     return new Promise((resolve, reject) => {
         map = new atlas.Map('azureMap', {
             center: [144.962646, -37.810272],
