@@ -11,3 +11,4 @@
 /FireWarningSystem.Web/FireWarningSystem.Data/bin/Debug/net8.0
 /FireWarningSystem.Web/.vs/FireWarningSystem.Web/v17/DocumentLayout.json
 *.bin
+/FireWarningSystem.Web/.vs/FireWarningSystem/v17/DocumentLayout.json
