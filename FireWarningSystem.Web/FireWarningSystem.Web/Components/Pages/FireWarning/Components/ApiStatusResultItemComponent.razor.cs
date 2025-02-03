@@ -1,7 +1,7 @@
-﻿using FireWarningSystem.UiLogic.Models;
+﻿using FireWarningSystem.UiLogic.Models.FireWarningModels;
 using Microsoft.AspNetCore.Components;
 
-namespace FireWarningSystem.Web.Components.Pages.Components
+namespace FireWarningSystem.Web.Components.Pages.FireWarning.Components
 {
     public partial class ApiStatusResultItemComponent
     {

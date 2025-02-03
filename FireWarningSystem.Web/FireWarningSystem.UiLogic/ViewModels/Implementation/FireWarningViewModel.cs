@@ -1,4 +1,4 @@
-﻿using FireWarningSystem.UiLogic.Models;
+﻿using FireWarningSystem.UiLogic.Models.FireWarningModels;
 using FireWarningSystem.UiLogic.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -30,6 +30,22 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             set { _model = value; }
         }
         private FireWarningMainModel _model = new();
+
+        public async Task ChangeViewMode() 
+        {
+            switch (Model.ViewType)
+            {
+                case FireWarningViewType.WarningPage:
+                    Model.ViewType = FireWarningViewType.ContactPage;
+                    break;
+                case FireWarningViewType.ContactPage:
+                    Model.ViewType = FireWarningViewType.WarningPage;
+                    await RefreshWarningsAsync();
+                    break;
+                default:
+                    throw new NotImplementedException("View Type is not implemented.");
+            }
+        }
 
         public async Task OnInitialisedAsync()
         {

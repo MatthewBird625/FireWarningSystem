@@ -1,8 +1,8 @@
-﻿using FireWarningSystem.UiLogic.Models;
+﻿using FireWarningSystem.UiLogic.Models.FireWarningModels;
 using FireWarningSystem.UiLogic.ViewModels;
 using Microsoft.AspNetCore.Components;
 
-namespace FireWarningSystem.Web.Components.Pages
+namespace FireWarningSystem.Web.Components.Pages.FireWarning
 {
     public partial class FireWarningMainPage
     {

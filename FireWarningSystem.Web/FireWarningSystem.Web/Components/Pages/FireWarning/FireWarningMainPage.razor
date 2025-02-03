@@ -1,0 +1,54 @@
+﻿@page "/"
+@using FireWarningSystem.UiLogic.Models.FireWarningModels
+@using FireWarningSystem.Web.Components.Pages.Components
+@using FireWarningSystem.Web.Components.Pages.FireWarning.Components
+@using UiLogic.Models;
+@using MudBlazor
+
+<MudContainer Class="mt-6" MaxWidth="MaxWidth.ExtraLarge" Style="min-height:800px;">
+
+    @if (!Model.Loading)
+    {
+        @if (Model.ViewType == FireWarningViewType.WarningPage)
+        {
+            <MudGrid Class="d-flex flex-grow-1" Spacing="2">
+
+                <MudHidden Breakpoint="Breakpoint.SmAndDown">
+                    <MudItem Class="d-flex flex-grow-1" xs="12" sm="12" md="5">
+                        <ApiStatusResultComponent Model="@Model.Warnings" ContactForm="@ViewModel.ChangeViewMode" RefreshStatus="@ViewModel.RefreshWarningsAsync" />
+                    </MudItem>
+                </MudHidden>
+
+                <MudItem xs="12" sm="12" md="7" lg="7" xl="7" Class="d-flex flex-grow-1 mx-auto">
+                    <MudPaper Class="pa-4 d-flex flex-grow-1">
+                        <AzureMapComponent />
+                    </MudPaper>
+                </MudItem>
+
+                <MudHidden Breakpoint="Breakpoint.MdAndUp">
+                    <MudItem Class="d-flex flex-grow-1" xs="12" sm="12" md="5">
+                        <ApiStatusResultComponent Model="@Model.Warnings" RefreshStatus="@ViewModel.RefreshWarningsAsync" />
+                    </MudItem>
+                </MudHidden>
+
+                @if (Model.Warnings.InvalidWarnings.Count() > 0)
+                {
+                    <MudItem xs="12">
+                        <FailedRendersComponent Warnings="@Model.Warnings.InvalidWarnings"/>
+                    </MudItem>
+                }
+            </MudGrid>
+        }
+        else if (Model.ViewType == FireWarningViewType.ContactPage)
+        {
+                <MudItem xs="12" Class="d-flex flex-grow-1">
+                    <ContactComponent Model="@Model.Contact" Back="@ViewModel.ChangeViewMode"/>
+                </MudItem>
+        }
+    }
+    else
+    {
+        <FireWarningSkeletonComponent />
+    }
+
+</MudContainer>

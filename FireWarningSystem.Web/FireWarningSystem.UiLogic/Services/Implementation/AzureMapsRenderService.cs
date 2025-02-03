@@ -1,4 +1,4 @@
-﻿using FireWarningSystem.UiLogic.Models;
+﻿using FireWarningSystem.UiLogic.Models.FireWarningModels;
 using Microsoft.Extensions.Configuration;
 using Microsoft.JSInterop;
 

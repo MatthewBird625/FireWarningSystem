@@ -1,4 +1,4 @@
-﻿namespace FireWarningSystem.UiLogic.Models
+﻿namespace FireWarningSystem.UiLogic.Models.FireWarningModels
 {
     public class WarningModel
     {
