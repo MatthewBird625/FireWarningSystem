@@ -1,11 +1,11 @@
-﻿namespace FireWarningSystem.UiLogic.Models
+﻿namespace FireWarningSystem.UiLogic.Models.FireWarningModels
 {
     public class WarningsModel
     {
         public IEnumerable<WarningModel> ActWarnings { get; set; } = Array.Empty<WarningModel>();
         public bool ActWarningsError { get; set; }
         public IEnumerable<WarningModel> InvalidWarnings { get; set; } = Array.Empty<WarningModel>();
-        public DateTime LastUpdateTime  {get; set; }
+        public DateTime LastUpdateTime { get; set; }
         public IEnumerable<WarningModel> NtWarnings { get; set; } = Array.Empty<WarningModel>();
         public bool NtWarningsError { get; set; }
         public IEnumerable<WarningModel> NswWarnings { get; set; } = Array.Empty<WarningModel>();

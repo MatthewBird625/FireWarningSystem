@@ -1,0 +1,35 @@
+﻿@using MudBlazor
+<MudPaper Class="pa-4">
+    <MudGrid Class="d-flex flex-grow-1" Spacing="2">
+        <MudItem xs="12">
+            <MudAlert Severity="Severity.Error">The following warnings had invalid map data and could not be placed on the map:</MudAlert>
+        </MudItem>
+        <MudItem xs="12">
+            <MudTable Items="@Warnings" Hover="true" Striped="true" Breakpoint="Breakpoint.Sm" LoadingProgressColor="Color.Info">
+                <HeaderContent>
+                    <MudTh>State</MudTh>
+                    <MudTh>Title</MudTh>
+                    <MudTh>Latitude</MudTh>
+                    <MudTh>Longitude</MudTh>
+                    <MudTh>Description</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd DataLabel="State">@context.StateType</MudTd>
+                    <MudTd DataLabel="Title">@context.Title</MudTd>
+                    <MudTd DataLabel="Latitude">@(context.Latitude == 0 ? "invalid" : context.Latitude)</MudTd>
+                    <MudTd DataLabel="Longitude">@(context.Longitude == 0 ? "invalid" : context.Longitude)</MudTd>
+                    <MudTd DataLabel="Description">
+                        <table>
+                            @(new MarkupString(context.Description))
+                        </table>
+                    </MudTd>
+                </RowTemplate>
+                <PagerContent>
+                    <MudTablePager PageSizeOptions="new int[] { 5, 10, 15, 25}" />
+                </PagerContent>
+
+            </MudTable>
+        </MudItem>
+
+    </MudGrid>
+</MudPaper>

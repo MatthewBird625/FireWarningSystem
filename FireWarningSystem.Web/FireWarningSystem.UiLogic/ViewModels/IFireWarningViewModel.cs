@@ -1,4 +1,4 @@
-﻿using FireWarningSystem.UiLogic.Models;
+﻿using FireWarningSystem.UiLogic.Models.FireWarningModels;
 
 namespace FireWarningSystem.UiLogic.ViewModels
 {
@@ -6,9 +6,10 @@ namespace FireWarningSystem.UiLogic.ViewModels
     {
         public FireWarningMainModel Model { get; set; }
 
+        Task ChangeViewMode();
         Task OnInitialisedAsync();
         Task RenderMapAsync();
         Task RefreshWarningsAsync();
-
+        Task SubmitContactFormAsync();
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using WarningClient.Models;
 
-namespace FireWarningSystem.UiLogic.Models
+namespace FireWarningSystem.UiLogic.Models.FireWarningModels
 {
     public static class WarningModelMap
     {

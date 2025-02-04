@@ -1,5 +1,6 @@
 ﻿@using MudBlazor
-<MudPaper Class="d-flex flex-grow-1 pa-4 mx-4">
+
+<MudPaper Class="d-flex flex-grow-1 pa-4">
     <MudGrid Spacing="3">
 
         <MudItem Class="d-flex flex-row" xs="12">
@@ -74,8 +75,20 @@
         </MudItem>
 
         <MudGrid Class="mt-4 d-flex" Spacing="2">
-            <MudItem xs="0" sm="0" md="6"></MudItem>
-            <MudItem xs="12" sm="0" md="6">
+            <MudItem xs="12" md="6">
+                <MudButton Color="Color.Info"
+                           Class="py-2"
+                           EndIcon="@MudBlazor.Icons.Material.Outlined.ContactPage"
+                           IconClass="ml-auto"
+                           IconSize="Size.Large"
+                           OnClick="@ContactForm"
+                           FullWidth="true"
+                           Variant="Variant.Outlined">
+                    Contact Form
+                </MudButton>
+            </MudItem>
+
+            <MudItem xs="12" md="6">
                 <MudButton Color="Color.Primary"
                            Class="py-2"
                            EndIcon="@MudBlazor.Icons.Material.Outlined.Search"
@@ -87,6 +100,7 @@
                     Refresh Warnings
                 </MudButton>
             </MudItem>
+
         </MudGrid>
     </MudGrid>
 </MudPaper>

@@ -1,0 +1,47 @@
+﻿@using MudBlazor
+
+<MudPaper Class="pa-4 mx-auto">
+    <MudForm Model="@Model" Validation="@Validator.ValidateValue" @ref="@Form" Class="d-flex flex-grow-1">
+        <MudGrid Class="d-flex flex-grow-1">
+            <MudItem xs="12">
+                <MudTextField @bind-Value="@Model.Name" For="@(() => Model.Name)" Label="Name" Variant="Variant.Outlined"></MudTextField>
+            </MudItem>   
+                                
+            <MudItem xs="12">
+                <MudTextField @bind-Value="@Model.Email" For="@(() => Model.Email)" Label="Email" Variant="Variant.Outlined"></MudTextField>
+            </MudItem>
+
+            <MudItem xs="12">
+                <MudTextField @bind-Value="@Model.Message" For="@(() => Model.Message)" Label="Your message" AutoGrow Lines="6" Variant="Variant.Outlined"></MudTextField>
+            </MudItem>
+
+            <MudItem xs="12" md="6">
+                <MudButton Color="Color.Warning"
+                            Class="py-2"
+                            EndIcon="@MudBlazor.Icons.Material.Outlined.ArrowBack"
+                            FullWidth="true"
+                            IconClass="ml-auto"
+                            IconSize="Size.Large"
+                            OnClick="@Back"
+                            Variant="Variant.Outlined">
+                    Back
+                </MudButton>
+            </MudItem>
+
+            <MudItem xs="12" md="6">
+                <MudButton Color="Color.Primary"
+                            Class="py-2"
+                            EndIcon="@MudBlazor.Icons.Material.Outlined.Search"
+                            FullWidth="true"
+                            IconClass="ml-auto"
+                            IconSize="Size.Large"
+                           OnClick="@SubmitAsync"
+                            Variant="Variant.Filled">
+                    Submit
+                </MudButton>
+            </MudItem>
+
+
+        </MudGrid>
+    </MudForm>
+</MudPaper>

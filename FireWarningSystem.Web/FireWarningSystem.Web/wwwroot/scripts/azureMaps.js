@@ -1,13 +1,11 @@
 var map;
 
 async function InitMap(subscriptionKey) {
-    /*    clear any existing map to avoid duplicate map layers*/
-    //let parentElement = document.getElementById('azureMap');
-    //parentElement.innerHTML = "";
+    let parentElement = document.getElementById('azureMap');
+    parentElement.innerHTML = "";
     if (map != null) {
         map.clear();
     }
-
     return new Promise((resolve, reject) => {
         map = new atlas.Map('azureMap', {
             center: [144.962646, -37.810272],
@@ -106,7 +104,6 @@ async function AddWarningSetToMap(incidents) {
     });
 
     map.events.add('mouseenter', symbolLayer, function (e) {
-        console.log("mouse enter");
         if (e.shapes && e.shapes.length > 0) {
             var content, coordinate;
             var properties = e.shapes[0].getProperties();
@@ -126,7 +123,6 @@ async function AddWarningSetToMap(incidents) {
     });
 
     map.events.add('mouseleave', symbolLayer, function () {
-        console.log("mouse leave");
         popup.close();
     });
 }

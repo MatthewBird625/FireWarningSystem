@@ -49,7 +49,7 @@ namespace WarningClient.Client.Implementation
             return await incidents.Content.ReadFromJsonAsync<List<ActIncident>>() ?? new List<ActIncident>();
         }
 
-        public async Task<IEnumerable<VicIncident>> GetCfaWarningsAsync()
+        public async Task<IEnumerable<VicIncident>> GetVicWarningsAsync()
         {
             var result = await _cfaHttpClient.GetAsync("Show?pageId=getIncidentJSON");
 
