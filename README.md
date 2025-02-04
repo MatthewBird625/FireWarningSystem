@@ -18,10 +18,15 @@ The UI Layer sees the introduction of more complex C#, as well as the complete r
 The Data Layer is for services and models primarily relating to Database or CRM access. It can also be used for access to Cloud Services, Security services etc. It usually does not have an effect on the components or C# Models / Logic that make up the front end. It can be thought of as the core backend of the archetecture. 
 
 END CORE ARCH LAYERS
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### WarningClient
+
 The Client Responsible for collecting the fire warning systems API from various states. I prefer to move API clients to standalone modules for ease of re-use in other applications. But within the context of this App it could of also just been implemented within the Data Layer. 
 
+END ALL ARCH LAYERS
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![arch diagram](https://github.com/MatthewBird625/FireWarningSystem/blob/main/diagram.png) 
 
 ## Quick Demo Video:
