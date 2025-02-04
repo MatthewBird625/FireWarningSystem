@@ -10,5 +10,6 @@ namespace FireWarningSystem.UiLogic.ViewModels
         Task OnInitialisedAsync();
         Task RenderMapAsync();
         Task RefreshWarningsAsync();
+        Task SubmitContactFormAsync();
     }
 }

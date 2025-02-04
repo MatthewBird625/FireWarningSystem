@@ -27,7 +27,7 @@
 
                 <MudHidden Breakpoint="Breakpoint.MdAndUp">
                     <MudItem Class="d-flex flex-grow-1" xs="12" sm="12" md="5">
-                        <ApiStatusResultComponent Model="@Model.Warnings" RefreshStatus="@ViewModel.RefreshWarningsAsync" />
+                        <ApiStatusResultComponent Model="@Model.Warnings" ContactForm="@ViewModel.ChangeViewMode" RefreshStatus="@ViewModel.RefreshWarningsAsync" />
                     </MudItem>
                 </MudHidden>
 
@@ -42,7 +42,7 @@
         else if (Model.ViewType == FireWarningViewType.ContactPage)
         {
                 <MudItem xs="12" Class="d-flex flex-grow-1">
-                    <ContactComponent Model="@Model.Contact" Back="@ViewModel.ChangeViewMode"/>
+                    <ContactComponent Model="@Model.Contact" Back="@ViewModel.ChangeViewMode" Submit="@ViewModel.SubmitContactFormAsync"/>
                 </MudItem>
         }
     }

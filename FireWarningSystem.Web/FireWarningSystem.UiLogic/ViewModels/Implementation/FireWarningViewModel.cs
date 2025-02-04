@@ -1,4 +1,5 @@
-﻿using FireWarningSystem.UiLogic.Models.FireWarningModels;
+﻿using FireWarningSystem.Data.Services;
+using FireWarningSystem.UiLogic.Models.FireWarningModels;
 using FireWarningSystem.UiLogic.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -11,14 +12,16 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
     {
         IAzureMapsRenderService _azureMapsRenderService;
         IConfiguration _configuration;
+        IEmailService _emailService;
         ILogger<FireWarningViewModel> _logger;
         ISnackbarService _snackbarService;
         IWarningClient _warningClient;
 
-        public FireWarningViewModel(IAzureMapsRenderService azureMapsRenderService, IConfiguration configuration, ILogger<FireWarningViewModel> logger, ISnackbarService snackbarService, IWarningClient warningClient)
+        public FireWarningViewModel(IAzureMapsRenderService azureMapsRenderService, IConfiguration configuration, IEmailService emailService, ILogger<FireWarningViewModel> logger, ISnackbarService snackbarService, IWarningClient warningClient)
         {
             _azureMapsRenderService = azureMapsRenderService;
             _configuration = configuration;
+            _emailService = emailService;
             _logger = logger;
             _snackbarService = snackbarService;
             _warningClient = warningClient;
@@ -80,8 +83,33 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
 
         public async Task RefreshWarningsAsync()
         {
-            await GenerateWarningsAsync();
-            await _azureMapsRenderService.GenerateWarningsMap(Model.Warnings);
+            try
+            {
+                await GenerateWarningsAsync();
+                await _azureMapsRenderService.GenerateWarningsMap(Model.Warnings);
+            }
+            catch (Exception e) 
+            {
+                _logger.LogError(e, "Error refreshing warnings.");
+                _snackbarService.Error("Unable to refresh warnings. Please contact {_configuration[\"supportEmail\"]} if this persists.");
+            }
+        }
+
+        public async Task SubmitContactFormAsync() 
+        {
+            try
+            {
+                await _emailService.SendFormEmailAsync(Model.Contact.Email, $"Fire Warning Contact Form - {Model.Contact.Name}", Model.Contact.Message);
+                Model.ViewType = FireWarningViewType.WarningPage;
+                Model.Contact = new();
+                await RefreshWarningsAsync();
+                _snackbarService.Success("Message successfully sent.");
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, "Unable to send Fire Warning Contact email form.");
+                _snackbarService.Error($"Unable to send your message. Please contact {_configuration["supportEmail"]} if this persists.");
+            }
         }
 
 
@@ -92,7 +120,7 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
 
             //collect all warnings in parallel and then try catch individually to containerise errors to each API result. 
             var actWarnings = _warningClient.GetActWarningsAsync();
-            var vicWarnings = _warningClient.GetCfaWarningsAsync();
+            var vicWarnings = _warningClient.GetVicWarningsAsync();
             var ntWarnings = _warningClient.GetNtWarningsAsync();
             var nswWarnings = _warningClient.GetNswWarningsAsync();
             var qldWarnings = _warningClient.GetQldWarningsAsync();
@@ -108,7 +136,7 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             catch (Exception e)
             {
                 Model.Warnings.ActWarningsError = true;
-                _snackbarService.Error("Unable to get ACT Warnings from State emergency service. Please contact support if this persists.");
+                _snackbarService.Error($"Unable to get ACT Warnings from State emergency service. Please contact {_configuration["supportEmail"]} if this persists.");
                 _logger.LogError(e, "Unable to get ACT Warnings.");
             }
             try
@@ -119,7 +147,7 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             catch (Exception e)
             {
                 Model.Warnings.NswWarningsError = true;
-                _snackbarService.Error("Unable to get NSW Warnings from State emergency service. Please contact support if this persists.");
+                _snackbarService.Error($"Unable to get NSW Warnings from State emergency service. Please contact {_configuration["supportEmail"]} if this persists.");
                 _logger.LogError(e, "Unable to get NSW Warnings.");
             }
             try
@@ -130,7 +158,7 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             catch (Exception e)
             {
                 Model.Warnings.NtWarningsError = true;
-                _snackbarService.Error("Unable to get NT Warnings from State emergency service. Please contact support if this persists.");
+                _snackbarService.Error($"Unable to get NT Warnings from State emergency service. Please contact {_configuration["supportEmail"]} if this persists.");
                 _logger.LogError(e, "Unable to get NT Warnings.");
             }
             try
@@ -140,9 +168,8 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             }
             catch (Exception e)
             {
-
                 Model.Warnings.QldWarningsError = true;
-                _snackbarService.Error("Unable to get QLD Warnings from State emergency service. Please contact support if this persists.");
+                _snackbarService.Error($"Unable to get QLD Warnings from State emergency service. Please contact {_configuration["supportEmail"]} if this persists.");
                 _logger.LogError(e, "Unable to get QLD Warnings.");
             }
             try
@@ -152,9 +179,8 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             }
             catch (Exception e)
             {
-
                 Model.Warnings.SaWarningsError = true;
-                _snackbarService.Error("Unable to get SA Warnings from State emergency service. Please contact support if this persists.");
+                _snackbarService.Error($"Unable to get SA Warnings from State emergency service. Please contact {_configuration["supportEmail"]} if this persists.");
                 _logger.LogError(e, "Unable to get SA Warnings.");
             }
             try
@@ -164,9 +190,8 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             }
             catch (Exception e)
             {
-
                 Model.Warnings.TasWarningsError = true;
-                _snackbarService.Error("Unable to get Tas Warnings from State emergency service. Please contact support if this persists.");
+                _snackbarService.Error($"Unable to get TAS Warnings from State emergency service. Please contact {_configuration["supportEmail"]} if this persists.");
                 _logger.LogError(e, "Unable to get Tas Warnings.");
             }
             try
@@ -176,9 +201,8 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             }
             catch (Exception e)
             {
-
                 Model.Warnings.VicWarningsError = true;
-                _snackbarService.Error("Unable to get VIC Warnings from State emergency service. Please contact support if this persists.");
+                _snackbarService.Error($"Unable to get VIC Warnings from State emergency service. Please contact {_configuration["supportEmail"]} if this persists.");
                 _logger.LogError(e, "Unable to get VIC Warnings.");
             }
             try
@@ -188,9 +212,8 @@ namespace FireWarningSystem.UiLogic.ViewModels.Implementation
             }
             catch (Exception e)
             {
-
                 Model.Warnings.WaWarningsError = true;
-                _snackbarService.Error("Unable to get WA Warnings from State emergency service. Please contact support if this persists.");
+                _snackbarService.Error($"Unable to get WA Warnings from State emergency service. Please contact {_configuration["supportEmail"]} if this persists.");
                 _logger.LogError(e, "Unable to get WA Warnings.");
             }
 

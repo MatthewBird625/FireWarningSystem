@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="MudBlazor" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FireWarningSystem.Data\FireWarningSystem.Data.csproj" />
     <ProjectReference Include="..\WarningClient\WarningClient.csproj" />
   </ItemGroup>
 

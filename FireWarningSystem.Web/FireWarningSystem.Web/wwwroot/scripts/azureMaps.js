@@ -104,7 +104,6 @@ async function AddWarningSetToMap(incidents) {
     });
 
     map.events.add('mouseenter', symbolLayer, function (e) {
-        console.log("mouse enter");
         if (e.shapes && e.shapes.length > 0) {
             var content, coordinate;
             var properties = e.shapes[0].getProperties();
@@ -124,7 +123,6 @@ async function AddWarningSetToMap(incidents) {
     });
 
     map.events.add('mouseleave', symbolLayer, function () {
-        console.log("mouse leave");
         popup.close();
     });
 }

@@ -1,3 +1,5 @@
+using FireWarningSystem.Data.Services;
+using FireWarningSystem.Data.Services.Implementation;
 using FireWarningSystem.UiLogic.Services;
 using FireWarningSystem.UiLogic.Services.Implementation;
 using FireWarningSystem.UiLogic.ViewModels;
@@ -17,6 +19,10 @@ builder.Services.AddMudServices();
 
 //register transients
 
+//DATA SERVICES
+builder.Services.AddTransient<IEmailService, EmailService>();
+
+//UI SERVICES / VM
 builder.Services
     .AddTransient<IAzureMapsRenderService, AzureMapsRenderService>()
     .AddTransient<ISnackbarService, FireWarningSystem.UiLogic.Services.Implementation.SnackbarService>()
